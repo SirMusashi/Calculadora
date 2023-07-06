@@ -4,6 +4,8 @@
 
 package com.mycompany.calculadorasimples;
 
+import com.mycompany.calculadorasimples.VIEW.Interface;
+
 /**
  *
  * @author bruno
@@ -11,6 +13,8 @@ package com.mycompany.calculadorasimples;
 public class CalculadoraSimples {
 
     public static void main(String[] args) {
-       
+       Interface inter = new Interface();
+        inter.setVisible(true);
+        
     }
 }
